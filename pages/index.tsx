@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             <p className="font1">2022년도 01월 신청</p>
             <div className="flex-row">
               <img src="/images/img5.png" width={18} height={18} className="mr7" />
-              <p className="font2">성동초등학교</p>
+              <p className="font2 m">성동초등학교</p>
             </div>
           </div>
           <div className="tab mt20">
@@ -45,21 +45,21 @@ const Home: NextPage = () => {
                   <img src="/images/img1.png" width={27} height={27} className="mr15" />
                   <div>
                     <p className="font3">학생명</p>
-                    <p className="font4">김철수</p>
+                    <p className="font4 m">김철수</p>
                   </div>
                 </div>
                 <div className="flex-row mt20">
                   <img src="/images/img2.png" width={21} height={27} className="mr21" />
                   <div>
                     <p className="font3">학년/반/번호</p>
-                    <p className="font4">1학년 1반 3번</p>
+                    <p className="font4 m">1학년 1반 3번</p>
                   </div>
                 </div>
                 <div className="flex-row mt20">
                   <img src="/images/img3.png" width={27} height={27} className="mr15" />
                   <div>
                     <p className="font3">신청기간</p>
-                    <p className="font4">2022.01.01 09:00 ~ 2022.02.01 18:00</p>
+                    <p className="font4 m">22.01.01 09:00 ~ 22.02.01 18:00</p>
                   </div>
                 </div>              
               </div>

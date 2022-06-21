@@ -375,7 +375,7 @@ a.primary-small {
   overflow-y: auto;
 }
 .item-list3 {
-  height: 245px;
+  height: 535px;
   overflow-y: auto;
   padding-bottom: 2px;
 }
@@ -672,18 +672,18 @@ a.primary-small {
     padding: 1.5rem;
   }
   .stu-info {
-    padding: 1.5rem;
+    padding: 1.3rem;
   }
   .modal-body {
     width: calc(100vw - 40px);
   }
-}
-
-@media only screen and (max-width: 375px) {
-  .flex-between.pc {
-    display: block;
+  .font1 {
+    font-size: 1.35rem;    
   }
-  .flex-between.pc .flex-row {
-    justify-content: flex-end;
+  .font2.m {
+    font-size: 1.05rem;
+  }
+  .font4.m {
+    font-size: 1.1rem;
   }
 }
