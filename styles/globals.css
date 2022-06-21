@@ -98,6 +98,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 167px 0 60px;
+  position: fixed;
 }
 header.header2 {
   padding: 0 70px 0 40px;
@@ -167,11 +168,12 @@ footer p {
   font-size: 0.875rem;
 }
 main {
-  height: calc(100vh - 263px);
+  height: calc(100vh - 183px);
   background-color: #E2F0F8;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 80px;
 }
 .container {
   width: 700px;
