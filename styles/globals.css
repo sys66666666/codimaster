@@ -35,13 +35,13 @@
   src: url("/fonts/NotoSansKR-Black.woff") format("woff");
 }
 * {
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  font-family: NotoSansKR;
 }
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: NotoSansKR;
   font-weight: 400;
   font-size: 16px;
   color: black;
@@ -68,6 +68,7 @@ p {
 }
 button {
   border: none;
+  padding: 0;
 }
 ul {
   padding-left: 31px;
@@ -101,7 +102,7 @@ header {
   position: fixed;
 }
 header.header2 {
-  padding: 0 70px 0 40px;
+  padding: 0 70px 0 25px;
 }
 header.header2 a {
   width: 30px;
@@ -256,6 +257,9 @@ main {
 }
 .ml7 {
   margin-left: 7px !important;
+}
+.ml15 {
+  margin-left: 15px !important;
 }
 .ml20 {
   margin-left: 20px !important;
@@ -533,6 +537,11 @@ a.primary-small {
   width: 100%;
   background: #F1F1F1;
   padding: 20px;
+}
+.back {
+  background-color: transparent;
+  cursor: pointer;
+  height: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
