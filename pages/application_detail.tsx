@@ -106,7 +106,7 @@ const ApplicationDetail: NextPage = () => {
                       </div>
                     </div>
                     <button onClick={() => lectureDetail(item)} className="secondary mt20">
-                      <img src="/images/img11.png" width={16} className="mr15" />강의 자료
+                      <img src="/images/img11.png" width={24} className="mr15" />강의 자료
                     </button>
                   </>
                 )}
@@ -117,17 +117,26 @@ const ApplicationDetail: NextPage = () => {
         {popup1 && (
           <div className="modal">
             <div className="modal-body">
+              <button onClick={() => setPopup1(false)} className="modal-close">
+                <img src="/images/img15.png" width={18} />
+              </button>
               <div className="text-center">
                 <p className="font4">알림</p>
                 <p className="mt20 font3">수강신청이 완료되었습니다.</p>
               </div>
-              <button className="primary2" onClick={() => setPopup1(false)}>확인</button>
+              <div className="flex-between">
+                <button className="secondary2" onClick={() => setPopup1(false)}>취소</button>
+                <button className="primary2 ml20" onClick={() => setPopup1(false)}>확인</button>
+              </div>
             </div>
           </div>
         )}
         {popup2 && (
           <div className="modal">
             <div className="modal-body">
+              <button onClick={() => setPopup2(false)} className="modal-close">
+                <img src="/images/img15.png" width={18} />
+              </button>
               <div className="text-center">
                 <p className="font4">알림</p>
                 <p className="mt20 font3">수강 시간이 중복됩니다.</p>

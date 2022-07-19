@@ -108,7 +108,7 @@ const Confirm: NextPage = () => {
                         </div>
                       </div>
                       <button onClick={() => lectureDetail(item)} className="secondary mt20">
-                        <img src="/images/img11.png" width={16} className="mr15" />강의 자료
+                        <img src="/images/img11.png" width={24} className="mr15" />강의 자료
                       </button>
                     </>
                   )}
@@ -140,6 +140,9 @@ const Confirm: NextPage = () => {
         {popup1 && (
           <div className="modal">
             <div className="modal-body">
+              <button onClick={() => setPopup1(false)} className="modal-close">
+                <img src="/images/img15.png" width={18} />
+              </button>
               <div className="text-center mt10">                
                 <p className="mt20 font3">수강신청을 취소하시겠습니까?</p>
               </div>
@@ -153,6 +156,9 @@ const Confirm: NextPage = () => {
         {popup2 && (
           <div className="modal">
             <div className="modal-body">
+              <button onClick={() => setPopup2(false)} className="modal-close">
+                <img src="/images/img15.png" width={18} />
+              </button>
               <div className="text-center mt10">
                 <p className="mt20 font3">수강신청이 취소되었습니다.</p>                
               </div>
