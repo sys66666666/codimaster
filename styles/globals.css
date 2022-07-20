@@ -67,7 +67,7 @@ p {
   margin: 0;
 }
 button {
-  border: none;
+  border: none;  
 }
 ul {
   padding-left: 31px;
@@ -169,7 +169,7 @@ footer p {
 }
 main {
   height: calc(100vh - 183px);
-  background-color: #E4F6F8;
+  background-color: #F1F1F1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -541,6 +541,10 @@ a.primary-small {
   width: 100%;
   background: #F1F1F1;
   padding: 20px;
+}
+.back {
+  background-color: transparent;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {
